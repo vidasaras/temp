@@ -13,7 +13,7 @@ graph_config = {
         "api_key": CODESTRAL_API_KEY,
         "model": "codestral-latest",  # Replace with the exact Codestral model name if needed
         "temperature": 0,
-        # You can add "api_base": "https://api.codestral.com/v1" if your endpoint is custom
+        "api_base": "https://codestral.mistral.ai/v1/chat/completions",
     },
     "verbose": True,
 }
